@@ -27,8 +27,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.request import HTTPXRequest
 
 # --- 配置部分 ---
-TELEGRAM_BOT_TOKEN = "7522JHCMFjJY"  # 替换为你的 Telegram Bot Token
-DIFY_API_URL = "http://192.1"  # 替换为你的 Dify API URL
+TELEGRAM_BOT_TOKEN = "8072829213:AAGG49NjTqh3t17w85qE7x-UfGUbUDYOKAQ"  # 替换为你的 Telegram Bot Token
+DIFY_API_URL = "https://api.dify.ai/v1/"  # 替换为你的 Dify API URL
 ADMIN_IDS = ["603"]  # 替换为你的管理员 ID，可以有多个
 API_KEYS = {
     "dave": "a",
@@ -1937,3 +1937,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("Bot stopped by user.")
         save_data(conversation_ids_by_user, api_keys, user_api_keys, blocked_users)
+
